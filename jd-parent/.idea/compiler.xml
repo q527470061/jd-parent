@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/../jd-common/src/main/java/com/jd/util/verifycode/VerifyCode.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jd-common" />
+        <module name="jd-manager-mapper" />
+        <module name="jd-manager-pojo" />
+        <module name="jd-manager-service" />
+        <module name="jd-manager-web" />
+        <module name="jd-sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jd-common" target="1.8" />
+      <module name="jd-manager" target="1.8" />
+      <module name="jd-manager-mapper" target="1.8" />
+      <module name="jd-manager-pojo" target="1.8" />
+      <module name="jd-manager-service" target="1.8" />
+      <module name="jd-manager-web" target="1.8" />
+      <module name="jd-parent" target="1.8" />
+      <module name="jd-sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
